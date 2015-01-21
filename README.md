@@ -9,8 +9,6 @@ There are two files.
 
 1. `Solarize-PSISE.ps1` which _when invoked from within PowerShell ISE_ sets the ISE colors from the Solarized palette. Depending on the switches passed to it this script can set colors from the dark or light palette. 
 
-2. `Solarize-PSISE-AddOnMenu.ps1` which, in my opinion, is the script end users should concern themselves with. Invoking this script from within the PowerShell ISE, or adding it to the ISE `$profile`, gets you two menu options under the Add-ons menu item. These menu items let you apply the Solarized palette. If you wish to apply the palette along with creating the menu items it is possible via a switch.
-
 Typing `help` (or `get-help`) followed by the script name will give you more details. In a nutshell `Solarize-PSISE.ps1` has just one switch `-Dark` that determines whether the dark or light palette is used. And `Solarize-PSISE-AddOnMenu.ps1` has two switches: `-Apply` tells it to also apply the palette (light by default), and `-Dark` specifies that the dark palette is to be applied. 
 
 ## Installation
