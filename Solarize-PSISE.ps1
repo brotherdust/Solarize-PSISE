@@ -86,6 +86,7 @@ param(
   [parameter(Mandatory=$false)]
   [Switch]
   $Dark,
+  $Dark = $true,
 
   [parameter(Mandatory=$false)]
   [int32]
